@@ -1,0 +1,46 @@
+body {
+    background: darkgreen;
+}
+
+.main-container {
+    background: lightgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.tagline {
+    background: whitesmoke;
+}
+.logo {
+    background: whitesmoke;
+}
+
+.hero-image {
+    background: hotpink;
+}
+
+.call-to-action {
+
+}
+
+section.turn-based-tactics-description {
+
+}
+
+.description {
+    font-size: 1.5rem;
+}
+
+section.campaign-creator {
+
+}
+
+section.nav {
+    background: whitesmoke;
+    color: black;
+}
+
+section.footer {
+    background: black;
+    color: whitesmoke;
+}

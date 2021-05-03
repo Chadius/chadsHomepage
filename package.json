@@ -1,0 +1,23 @@
+{
+  "name": "chadsHomepage",
+  "version": "1.0.0",
+  "description": "Chad Serrant homepage",
+  "main": "index.html",
+  "dependencies": {
+    "netify": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chadius/chadsHomepage.git"
+  },
+  "author": "Chad Serrant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chadius/chadsHomepage/issues"
+  },
+  "homepage": "https://github.com/Chadius/chadsHomepage#readme"
+}
