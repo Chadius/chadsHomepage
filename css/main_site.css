@@ -1,46 +1,53 @@
-body {
-    background: darkgreen;
+nav.topnav {
+    background: purple;
+    display: flex;
+    flex-direction: row;
+    max-width: 1024px;
+    color: whitesmoke;
 }
 
-.main-container {
-    background: lightgreen;
+nav.topnav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav.topnav li {
+    marker: none;
+}
+
+nav.topnav li span {
+    padding-right: 32px;
+}
+
+nav.subnav {
+    flex-basis: 20%;
+    background: palegoldenrod;
     display: flex;
     flex-direction: column;
 }
 
-.tagline {
-    background: whitesmoke;
-}
-.logo {
-    background: whitesmoke;
-}
-
-.hero-image {
-    background: hotpink;
+article {
+    display: flex;
+    flex-direction: row;
+    max-width: 1024px;
 }
 
-.call-to-action {
-
+div.main-content {
+    background: #fcf8f3;
+    flex-basis: 80%;
 }
 
-section.turn-based-tactics-description {
-
+header {
+    background: #f8ecec;
 }
 
-.description {
-    font-size: 1.5rem;
+body {
+    background: #e0daec;
+    margin: 0 auto;
 }
 
-section.campaign-creator {
-
-}
-
-section.nav {
-    background: whitesmoke;
-    color: black;
-}
-
-section.footer {
-    background: black;
+footer {
+    background: rebeccapurple;
     color: whitesmoke;
+    max-width: 1024px;
 }
